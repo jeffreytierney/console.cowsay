@@ -52,6 +52,6 @@
       console.log(breakTextIntoLines(text, line_length).concat(cow).join("\n"));
     };
 
-    window.console.cowsay = cowsay;
+    window.console["cowsay"] = cowsay;
   }
 })();
