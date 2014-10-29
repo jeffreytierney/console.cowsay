@@ -4,7 +4,7 @@
     var padLine = function(line, longest_line, pad_char) {
       pad_char = pad_char || " ";
       var pad_str = "";
-      for(var i=line.length; i<longest_line; i++) {
+      for(var i=line.length; i<longest_line-1; i++) {
         pad_str += pad_char;
       }
       return pad_str;
